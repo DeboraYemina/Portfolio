@@ -1,0 +1,28 @@
+.menu { 
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    background-color: #5271ff;
+}
+.menu li{
+    color:red;
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+.menu li a{
+    padding: 2px 7px 2px 7px;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #ccc;
+    position: sticky;
+}
+.menu li a:hover{
+    color:#5271ff;
+    background-color: #fff;
+}
+header{
+    position: sticky;
+    top:0;
+}
