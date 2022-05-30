@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'WC Mano Negra Bold';
+    src: url('fuentes/WCManoNegraBoldBta.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 .menu { 
     list-style-type: none;
     margin: 0;
@@ -22,7 +29,38 @@
     color:#5271ff;
     background-color: #fff;
 }
+
 header{
     position: sticky;
     top:0;
+}
+
+#inicio{
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+#sobre-mi{
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+.back-violeta{
+    background-color: #5271ff;
+}
+
+.back-blanco{
+    background-color: #fff;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-family:'WC Mano Negra Bold';
+    font-size: 5em;
+    width: 35%;
+    height: 100%;
 }
