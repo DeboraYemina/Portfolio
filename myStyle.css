@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: 'WC Mano Negra Bold';
     src: url('fuentes/WCManoNegraBoldBta.ttf') format('truetype');
@@ -33,24 +38,56 @@
 header{
     position: sticky;
     top:0;
-}
-
-#inicio{
-    margin: 0;
-    padding: 10px 0 10px 0;
-}
-
-#sobre-mi{
-    margin: 0;
-    padding: 10px 0 10px 0;
+    z-index: 50;
 }
 
 .back-violeta{
     background-color: #5271ff;
 }
 
-.back-blanco{
+.sobre-mi{
     background-color: #fff;
+    width: 100%; 
+    height: 500px; 
+    position: relative; 
+    padding-top: 3cm;
+}
+
+.sobre-mi__h1{
+    position: absolute; 
+    width: 47%; 
+    left: 3%
+}
+.sobre-mi__video{
+    /*width: 200%;*/
+    height: 20%; 
+    position: absolute; 
+    top: 2.2cm; 
+    left: 0%; 
+    right: 0%; 
+    margin: auto
+}
+.sobre-mi__p{
+    position: absolute; 
+    right: 5%; 
+    width: 30%; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 2em; 
+    line-height: 3
+}
+.sobre-mi__q
+{
+    text-align: justify; 
+    text-indent: 40px; 
+    position: absolute; 
+    bottom:1%; 
+    top: 50%; 
+    right:15%; 
+    left: 15%; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    padding-bottom: 5%; 
+    font-size: 3em
+
 }
 
 .video{
@@ -59,8 +96,6 @@ header{
 }
 
 h1{
-    font-family:'WC Mano Negra Bold';
+    font-family:'WC Mano Negra Bold',sans-serif;
     font-size: 5em;
-    width: 35%;
-    height: 100%;
 }
