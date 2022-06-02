@@ -22,6 +22,7 @@ box-sizing: border-box;
     display: inline;
     text-align: center;
     margin: 0 10px 0 0;
+    font-size: 1.5em;
 }
 .menu li a{
     padding: 2px 7px 2px 7px;
