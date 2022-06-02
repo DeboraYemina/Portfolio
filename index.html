@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="myStyle.css">
     <script src="jsCode.js"></script>
 </head>
-<body style="font-size: 80%; min-height: 100vh";>
-    <header style="background: green; opacity: 0.5;">
+<body>
+    <header>
         <nav>
             <ul id="menu" class="menu">
                 <li><a href="#inicio">Inicio</a></li>
@@ -21,16 +21,38 @@
             </ul>
         </nav>
     </header>
-    <div id="inicio" class="back-violeta" style="background: black; opacity: 0.5;">
-        <video src="multimedia/inicio.mp4" style="width: 100%" autoplay muted loop >Lo sentimos. El video no pudo ser cargado.</video>
+    <div id="inicio" class="back-violeta">
+        <video src="multimedia/inicio.mp4" class="video" autoplay muted loop >Lo sentimos. El video no pudo ser cargado.</video>
     </div>
-    <div id="sobre-mi" style="background: red;opacity: 0.5; width: 100%; height: 40vw; position: relative;">
-        <h1 class="sobre-mi__h1" style=" background: yellow; top:20%; position: absolute; font-family:'WC Mano Negra Bold',sans-serif; font-size: 6vw; padding: 0.33% 0 0 1.5vw" >Débora Moriset</h1>
-        <div style="position: absolute; background: chartreuse; top:20%; left:45%; padding: 0.33% 0 0 0;">
-            <video class="sobre-mi__video" src="multimedia/flecha.mp4" style="width: 12vw;" autoplay muted loop >Lo sentimos. El video no pudo ser cargado.</video>
+    <div id="sobre-mi" class="sobre-mi">
+        <h1 class="sobre-mi__h1">Débora Moriset</h1>
+        <div class="sobre-mi__div--div">
+            <video class="sobre-mi__video" src="multimedia/flecha.mp4" style="width: 12vw" autoplay muted loop >Lo sentimos. El video no pudo ser cargado.</video>
         </div>
-        <p class="sobre-mi__p" style="top:20%; padding: 0.33% 1.5vw 0 0; background: blue;right:0;position: absolute; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 2.5vw; line-height: 3"> DESARROLLADORA .NET</p>
-        <q style="font-size:3.5vw; bottom:0; margin-bottom:5vw; margin-left:5vw; margin-right:5vw; background:  white; position:absolute;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Soy programadora especializándome en .NET, actualmente buscando un puesto de trabajo donde pueda sumergirme en el mundo IT.</q>
-        
+        <p class="sobre-mi__p"> DESARROLLADORA .NET</p>
+        <q class="sobre-mi__q">Soy programadora especializándome en .NET, actualmente buscando un puesto de trabajo donde pueda sumergirme en el mundo IT.</q>
+    </div>
+    <div id = "formacion-academica" class="back-violeta">
+        <video src="multimedia/formacion-academica.mp4" class="video"  autoplay muted loop>Lo sentimos. El video no pudo ser cargado.</video>
+    </div>
+    <div class="formacion-academica">
+        <div class="formacion-academica__div">
+            <h2 class="formacion-academica__div--h2"><u>Tecnicatura Universitaria en Programación</u></h2>
+            <br>
+            <p class="formacion-academica__div--p">Carrera técnica universitaria  cursada presencial en UTN-FRA que me capacita para operar y programar computadoras aplicando distintos lenguajes de programación. Crear, programar y mantener los sistemas y redes de computadoras. Elaborar y/o corregir los programas mediante un lenguaje de desarrollo requerido por el mercado laboral. Brindar al usuario la posibilidad de optimizar sus procesos acordes a las necesidades que impone la competencia del mercado. </p>
+            <p class="formacion-academica__div--p"> Tecnologías utilizadas durante la cursada: POO, C, C#, VB.NET, SQL</p>
+        </div>
+        <div class="formacion-academica__div" style="top:25vw">
+            <h2 class="formacion-academica__div--h2"><u>Diplomatura en .NET</u></h2>
+            <br>
+            <p class="formacion-academica__div--p">Capacitación en programación .NET y .NET Web cursada virtualmente en UTN-FRRE que brinda las bases necesarias para aprender a diseñar y programar tu propia solución .NET creando un perfil de desarrollador de software de aplicaciones .NET escritorio y web. </p>
+            <p class="formacion-academica__div--p"> Tecnologías utilizadas durante la cursada:  C#, SQL, HTML, CSS, JS, AJAX, ADO.NET, ASP.NET WebForms</p>
+        </div>
+        <div class="formacion-academica__div" style="top:48vw">
+            <h2 class="formacion-academica__div--h2"><u>Carrera de .NET</u></h2>
+            <br>
+            <p class="formacion-academica__div--p">La carrera .NET, que se realiza bajo la modalidad a distancia en Educación IT, provee los fundamentos teóricos y técnicos que se necesita para poder utilizar la herramienta .NET, aprendiendo a diseñar aplicaciones para la Web a través del uso de los programas ASP.NET y la base de datos SQL Server. La carrera es un conjunto de cursos, actualmente estoy cursando Entity Framework y  LINQ.</p>
+            <p class="formacion-academica__div--p">Tecnologías utilizadas durante la cursada: POO, HTML, JS, C#, LINQ, SQL, UML y UP, GIT, SCRUM, Angular 13, ASP.NET core MVC, API.Net, React.JS</p>
+        </div>
     </div>
 </body>
