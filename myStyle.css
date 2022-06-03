@@ -109,8 +109,7 @@ header{
     top:0; 
     position: absolute; 
     margin:5vw; 
-    text-align: center; 
-    border-color: black;  
+    text-align: center;  
     padding: 1vw
 }
 .formacion-academica__div--h2{
@@ -121,4 +120,31 @@ header{
     font-style: italic; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2vw
+}
+
+.certificados{
+    background: white;
+    position: relative
+}
+.certificados__img-grande{
+    width:70%; 
+    height: 70%; 
+    margin-left:14vw; 
+    margin-top: 2vw
+}
+.certificados__img-chica{
+    margin:2.5vw;
+    margin-bottom: 5vw;
+}
+
+.habilidades{
+    position:relative; 
+    width: 100%; 
+    background-color: #5271ff;
+}
+.habilidades__img{
+    width:20%; 
+    height: 20%; 
+    margin-left:2vw; 
+    margin-top:2vw
 }
