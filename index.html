@@ -5,118 +5,144 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Personal</title>
-    <link rel="stylesheet" href="myStyle.css">
     <link rel="icon" href="multimedia/icono.ico">
     <script src="jsCode.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="myStyle.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul id="menu" class="menu">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#formacion-academica">Formación académica</a></li>
-                <li><a href="#certificados">Certificados</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="inicio" class="back-violeta">
-        <video src="multimedia/inicio.mp4" class="video" autoplay muted loop >Lo sentimos. El video no pudo ser cargado.</video>
-    </div>
-    <div id="sobre-mi" class="sobre-mi">
-        <h1 class="sobre-mi__h1">Débora Moriset</h1>
-        <div class="sobre-mi__div--div">
-            <video class="sobre-mi__video" src="multimedia/flecha.mp4" style="width: 12vw" autoplay muted loop >Lo sentimos. El video no pudo ser cargado.</video>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col-12">
+                <header>
+                    <nav>
+                        <ul class="nav justify-content-center">
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#sobre-mi">Sobre mí</a></li>
+                            <li><a href="#formacion-academica">Formación académica</a></li>
+                            <li><a href="#certificados">Certificados</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <div id="inicio" class="back-violeta">
+                    <div class="video">
+                        <video src="multimedia/inicio.mp4" autoplay muted loop>Lo sentimos. El video no pudo ser cargado.</video>
+                    </div>
+                </div>
+                <div id="sobre-mi" class="container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-5">
+                                <h1 class="sobre-mi__h1">Débora Moriset</h1>
+                            </div>
+                            <div class="col-2">
+                                <div class="video">
+                                    <video src="multimedia/flecha.mp4" autoplay muted loop>Lo sentimos. El video no pudo ser cargado.</video>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <p class="sobre-mi__p"> DESARROLLADORA .NET</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <q class="sobre-mi__q">Soy programadora especializándome en .NET, actualmente buscando un puesto de trabajo donde pueda sumergirme en el mundo IT.</q>
+                    </div>
+                </div>
+                <div id="formacion-academica" class="back-violeta">
+                    <video src="multimedia/formacion-academica.mp4" class="video" autoplay muted loop>Lo sentimos. El video no pudo ser cargado.</video>
+                </div>
+                <div class="formacion-academica">
+                    <div class="formacion-academica__div">
+                        <h2 class="formacion-academica__div--h2"><u>Tecnicatura Universitaria en Programación</u></h2>
+                        <br>
+                        <p class="formacion-academica__div--p">Carrera técnica universitaria  cursada presencial en UTN-FRA que me capacita para operar y programar computadoras aplicando distintos lenguajes de programación. Crear, programar y mantener los sistemas y redes de computadoras. Elaborar y/o corregir los programas mediante un lenguaje de desarrollo requerido por el mercado laboral. Brindar al usuario la posibilidad de optimizar sus procesos acordes a las necesidades que impone la competencia del mercado. </p>
+                        <p class="formacion-academica__div--p"> Tecnologías utilizadas durante la cursada: POO, C, C#, VB.NET, SQL</p>
+                    </div>
+                    <div class="formacion-academica__div" style="top:25vw">
+                        <h2 class="formacion-academica__div--h2"><u>Diplomatura en .NET</u></h2>
+                        <br>
+                        <p class="formacion-academica__div--p">Capacitación en programación .NET y .NET Web cursada virtualmente en UTN-FRRE que brinda las bases necesarias para aprender a diseñar y programar tu propia solución .NET creando un perfil de desarrollador de software de aplicaciones .NET escritorio y web. </p>
+                        <p class="formacion-academica__div--p"> Tecnologías utilizadas durante la cursada:  C#, SQL, HTML, CSS, JS, AJAX, ADO.NET, ASP.NET WebForms</p>
+                    </div>
+                    <div class="formacion-academica__div" style="top:48vw">
+                        <h2 class="formacion-academica__div--h2"><u>Carrera de .NET</u></h2>
+                        <br>
+                        <p class="formacion-academica__div--p">La carrera .NET, que se realiza bajo la modalidad a distancia en Educación IT, provee los fundamentos teóricos y técnicos que se necesita para poder utilizar la herramienta .NET, aprendiendo a diseñar aplicaciones para la Web a través del uso de los programas ASP.NET y la base de datos SQL Server. La carrera es un conjunto de cursos, actualmente estoy cursando Entity Framework y  LINQ.</p>
+                        <p class="formacion-academica__div--p">Tecnologías utilizadas durante la cursada: POO, HTML, JS, C#, LINQ, SQL, UML y UP, GIT, SCRUM, Angular 13, ASP.NET core MVC, API.Net, React.JS</p>
+                    </div>
+                </div>
+                <div id="certificados" class="certificados">
+                    <img class="video" src="multimedia/Certificados.png" alt="No se encontró la imagen">
+                    <div>
+                        <img src="multimedia/scrum-certificado.png" alt="No se encontró la imagen" class="certificados__img-grande">
+                        <img src="multimedia/sql-certificado.png" alt="No se encontró la imagen" class="certificados__img-grande">
+                        <img src="multimedia/csharp-insignia.jpg" alt="No se encontró la imagen" style="width: 25vw" class="certificados__img-chica">
+                        <img src="multimedia/html-insignia.jpg" alt="No se encontró la imagen" style="width: 27vw" class="certificados__img-chica">
+                        <img src="multimedia/net-insignia.jpg" alt="No se encontró la imagen" style="width: 30vw" class="certificados__img-chica">
+                    </div>
+                </div>
+                <div id="habilidades" class="habilidades">
+                    <video src="multimedia/Habilidades.mp4" class="video" autoplay muted loop>Lo sentimos. El video no pudo ser cargado.</video>
+                </div>
+                <div class="back-violeta" style="background: #94a8ff">
+                    <img src="multimedia/csharp.png" alt="No se encontró la imagen" class="habilidades__img" title="Avanzado">
+                    <img src="multimedia/html.png" alt="No se encontró la imagen" class="habilidades__img" title="Básico">
+                    <img src="multimedia/aspnet.png" alt="No se encontró la imagen" class="habilidades__img" title="Avanzado">
+                    <img src="multimedia/sqlserver.png" alt="No se encontró la imagen" class="habilidades__img" title="Básico">
+                    <img src="multimedia/visual-studio.webp" alt="No se encontró la imagen" class="habilidades__img" title="Avanzado">
+                    <img src="multimedia/vscode.png" alt="No se encontró la imagen" class="habilidades__img" title="Básico">
+                    <img src="multimedia/ado.png" alt="No se encontró la imagen" class="habilidades__img" title="Avanzado">
+                    <img src="multimedia/ingles.webp" alt="No se encontró la imagen" class="habilidades__img" title="Intermedio">
+                </div>
+                <div id="contacto" class="contacto">
+                    <div style="display: flex;" ;>
+                        <img src="multimedia/asterisco.png" alt="No se encontró la imagen" style=" margin-left:50px; width:10%; height: 10%; padding-top: 100px; float: left">
+                        <h2 style="margin: auto; font-family:'WC Mano Negra Bold',sans-serif; font-size: 7vw; text-align: center;display: inline-block; padding-top: 100px;">Vamos a trabajar juntos</h2>
+                        <img src="multimedia/asterisco.png" alt="No se encontró la imagen" style="margin-right:50px; width:10%; height: 10%; padding-top: 100px; float: right">
+                    </div>
+
+                    <div class="formulario">
+                        <h2 class="formulario__h2">Formulario de contacto</h2>
+                        <form>
+                            <p class="formulario__p">
+                                <label for="nombre" class="formulario__label">Nombre</label>
+                                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre" class="formulario__input">
+                            </p>
+
+                            <p class="formulario__p">
+                                <label for="email" class="formulario__label">Email</label>
+                                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email" class="formulario__input">
+                            </p>
+
+                            <p class="formulario__p">
+                                <label for="asunto" class="formulario__label">Asunto</label>
+                                <input type="text" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto" class="formulario__input">
+                            </p>
+
+                            <p class="formulario__p">
+                                <label for="mensaje" class="formulario__label">Mensaje</label>
+                                <textarea name="introducir_mensaje" id="mensaje" class="formulario__textarea" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+                            </p>
+
+                            <button class="formulario__boton" type="submit" name="enviar_formulario" id="enviar"><p class="formulario__p" style="color: #fff " onclick="alerta()">Enviar</p></button>
+                        </form>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <a href="https://github.com/DeboraYemina" target="_blank"><img src="multimedia/github.png" alt="No se encontró la imagen" class="footer__img"></a>
+                    <a href="https://www.linkedin.com/in/debora-moriset/" target="_blank"><img src="multimedia/linkedin.png" alt="No se encontró la imagen" class="footer__img"></a>
+                    <a href="mailto:deborayemina@gmail.com"><img src="multimedia/gmail.png" alt="No se encontró la imagen" class="footer__img"></a>
+                </footer>
+            </div>
+            <div class="col">
+            </div>
         </div>
-        <p class="sobre-mi__p"> DESARROLLADORA .NET</p>
-        <q class="sobre-mi__q">Soy programadora especializándome en .NET, actualmente buscando un puesto de trabajo donde pueda sumergirme en el mundo IT.</q>
     </div>
-    <div id = "formacion-academica" class="back-violeta">
-        <video src="multimedia/formacion-academica.mp4" class="video"  autoplay muted loop>Lo sentimos. El video no pudo ser cargado.</video>
-    </div>
-    <div class="formacion-academica">
-        <div class="formacion-academica__div">
-            <h2 class="formacion-academica__div--h2"><u>Tecnicatura Universitaria en Programación</u></h2>
-            <br>
-            <p class="formacion-academica__div--p">Carrera técnica universitaria  cursada presencial en UTN-FRA que me capacita para operar y programar computadoras aplicando distintos lenguajes de programación. Crear, programar y mantener los sistemas y redes de computadoras. Elaborar y/o corregir los programas mediante un lenguaje de desarrollo requerido por el mercado laboral. Brindar al usuario la posibilidad de optimizar sus procesos acordes a las necesidades que impone la competencia del mercado. </p>
-            <p class="formacion-academica__div--p"> Tecnologías utilizadas durante la cursada: POO, C, C#, VB.NET, SQL</p>
-        </div>
-        <div class="formacion-academica__div" style="top:25vw">
-            <h2 class="formacion-academica__div--h2"><u>Diplomatura en .NET</u></h2>
-            <br>
-            <p class="formacion-academica__div--p">Capacitación en programación .NET y .NET Web cursada virtualmente en UTN-FRRE que brinda las bases necesarias para aprender a diseñar y programar tu propia solución .NET creando un perfil de desarrollador de software de aplicaciones .NET escritorio y web. </p>
-            <p class="formacion-academica__div--p"> Tecnologías utilizadas durante la cursada:  C#, SQL, HTML, CSS, JS, AJAX, ADO.NET, ASP.NET WebForms</p>
-        </div>
-        <div class="formacion-academica__div" style="top:48vw">
-            <h2 class="formacion-academica__div--h2"><u>Carrera de .NET</u></h2>
-            <br>
-            <p class="formacion-academica__div--p">La carrera .NET, que se realiza bajo la modalidad a distancia en Educación IT, provee los fundamentos teóricos y técnicos que se necesita para poder utilizar la herramienta .NET, aprendiendo a diseñar aplicaciones para la Web a través del uso de los programas ASP.NET y la base de datos SQL Server. La carrera es un conjunto de cursos, actualmente estoy cursando Entity Framework y  LINQ.</p>
-            <p class="formacion-academica__div--p">Tecnologías utilizadas durante la cursada: POO, HTML, JS, C#, LINQ, SQL, UML y UP, GIT, SCRUM, Angular 13, ASP.NET core MVC, API.Net, React.JS</p>
-        </div>
-    </div>
-    <div id="certificados" class="certificados">
-        <img class="video" src="multimedia/Certificados.png" alt="No se encontró la imagen">
-        <div>
-            <img src="multimedia/scrum-certificado.png" alt="No se encontró la imagen" class="certificados__img-grande">
-            <img src="multimedia/sql-certificado.png" alt="No se encontró la imagen" class="certificados__img-grande">
-            <img src="multimedia/csharp-insignia.jpg" alt="No se encontró la imagen" style="width: 25vw" class="certificados__img-chica">
-            <img src="multimedia/html-insignia.jpg" alt="No se encontró la imagen" style="width: 27vw" class="certificados__img-chica">
-            <img src="multimedia/net-insignia.jpg" alt="No se encontró la imagen" style="width: 30vw" class="certificados__img-chica">
-        </div>
-    </div>
-    <div id ="habilidades" class="habilidades">
-        <video src="multimedia/Habilidades.mp4" class="video" autoplay muted loop >Lo sentimos. El video no pudo ser cargado.</video>
-    </div>
-    <div class="back-violeta" style="background: #94a8ff">
-        <img src="multimedia/csharp.png" alt="No se encontró la imagen" class="habilidades__img" title="Avanzado">
-        <img src="multimedia/html.png" alt="No se encontró la imagen" class="habilidades__img" title="Básico">
-        <img src="multimedia/aspnet.png" alt="No se encontró la imagen" class="habilidades__img" title="Avanzado">
-        <img src="multimedia/sqlserver.png" alt="No se encontró la imagen" class="habilidades__img" title="Básico">
-        <img src="multimedia/visual-studio.webp" alt="No se encontró la imagen" class="habilidades__img" title="Avanzado">
-        <img src="multimedia/vscode.png" alt="No se encontró la imagen" class="habilidades__img" title="Básico">
-        <img src="multimedia/ado.png" alt="No se encontró la imagen" class="habilidades__img" title="Avanzado">
-        <img src="multimedia/ingles.webp" alt="No se encontró la imagen" class="habilidades__img"title="Intermedio">
-    </div>
-    <div id="contacto" class="contacto">
-        <div style="display: flex;";>
-            <img src="multimedia/asterisco.png" alt="No se encontró la imagen" style=" margin-left:50px; width:10%; height: 10%; padding-top: 100px; float: left">
-            <h2 style="margin: auto; font-family:'WC Mano Negra Bold',sans-serif; font-size: 7vw; text-align: center;display: inline-block; padding-top: 100px;">Vamos a trabajar juntos</h2>
-            <img src="multimedia/asterisco.png" alt="No se encontró la imagen" style="margin-right:50px; width:10%; height: 10%; padding-top: 100px; float: right">
-        </div>
-        
-        <div class="formulario">      
-            <h2 class="formulario__h2">Formulario de contacto</h2>
-                <form>      
-                    <p class="formulario__p">
-                        <label for="nombre" class="formulario__label">Nombre</label>
-                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre" class="formulario__input">
-                    </p>
-                    
-                    <p class="formulario__p">
-                        <label for="email" class="formulario__label">Email</label>
-                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email"class="formulario__input">
-                    </p>     
-                    
-                    <p class="formulario__p">
-                        <label for="asunto" class="formulario__label">Asunto</label>
-                        <input type="text" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto"class="formulario__input">
-                    </p>    
-                    
-                    <p class="formulario__p">
-                        <label for="mensaje" class="formulario__label">Mensaje</label>                     
-                        <textarea name="introducir_mensaje" id="mensaje" class="formulario__textarea" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                    </p>                    
-                    
-                    <button class="formulario__boton" type="submit" name="enviar_formulario" id="enviar"><p class="formulario__p" style="color: #fff " onclick="alerta()" >Enviar</p></button>        
-                </form>
-        </div>  
-    </div>
-    <footer class="footer">
-        <a href="https://github.com/DeboraYemina" target="_blank"><img src="multimedia/github.png" alt="No se encontró la imagen" class="footer__img"></a>
-        <a href="https://www.linkedin.com/in/debora-moriset/" target="_blank"><img src="multimedia/linkedin.png" alt="No se encontró la imagen" class="footer__img"></a>
-        <a href="mailto:deborayemina@gmail.com"><img src="multimedia/gmail.png" alt="No se encontró la imagen" class="footer__img"></a>
-    </footer>
+    
 </body>
