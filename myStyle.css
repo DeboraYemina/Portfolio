@@ -90,11 +90,6 @@ header {
     font-size: 1.75vw
 }
 
-.certificados {
-    background: white;
-    position: relative
-}
-
 .certificados__img-grande {
     width: 70%;
     height: 70%;

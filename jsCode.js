@@ -41,8 +41,3 @@ function alerta() {
         return false;
 	}
 }
-$( document ).ready(function(){
-    $('.carousel').carousel({
-      interval: 2000
-    })
-});
