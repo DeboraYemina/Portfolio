@@ -40,79 +40,54 @@ header {
 
     .video video {
         width: 100%;
-        max-width: 600px;
+        max-width: 800px;
     }
 
-.sobre-mi {
-    width: 100%;
-    height: 40vw;
-    position: relative;
-    background: white;
-}
+    .video img{
+        width: 100%;
+        max-width: 800px;
+    }
 
-.sobre-mi__h1 {
+.col-5 h1 {
     position: absolute;
     font-family: 'WC Mano Negra Bold',sans-serif !important;
     font-size: 6vw;
-    width:70%;
 }
 
-.sobre-mi__div--div {
-    position: absolute;
-    top: 20%;
-    left: 45%;
-    padding: 0.33% 0 0 0
-}
-
-.sobre-mi__p {
-    top: 20%;
-    padding: 0.33% 2.5vw 0 0;
-    right: 0;
-    position: absolute;
+.col-5 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.5vw;
+    text-align: right;
     line-height: 3
 }
 
-.sobre-mi__q {
+.sobre-mi {
+    padding-bottom: 50px;
+    padding-top: 50px;
     text-align: center;
-    font-size: 3.5vw;
-    bottom: 0;
-    margin-bottom: 5vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    font-size: 3vw;
     background: white;
-    position: absolute;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.formacion-academica {
-    position: relative;
-    height: 80vw;
-    width: 100%;
-    background-color: #5271ff;
-}
-
-.formacion-academica__div {
+.bloque {
     background: whitesmoke;
     opacity: .7;
     box-shadow: 10px 10px 5px #294df1;
-    top: 0;
-    position: absolute;
-    margin: 5vw;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding: 1vw
 }
 
-.formacion-academica__div--h2 {
+.bloque h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 3vw
+    font-size: 3vw;
 }
 
-.formacion-academica__div--p {
+.bloque p {
     font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2vw
+    font-size: 1.75vw
 }
 
 .certificados {
