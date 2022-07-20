@@ -90,29 +90,33 @@ header {
     font-size: 1.75vw
 }
 
-.certificados__img-grande {
-    width: 70%;
-    height: 70%;
-    margin-left: 14vw;
-    margin-top: 2vw
-}
-
-.certificados__img-chica {
-    margin: 2.5vw;
-    margin-bottom: 5vw;
-}
-
-.habilidades {
-    position: relative;
-    width: 100%;
+#habilidades {
     background-color: #5271ff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.habilidades__img {
-    width: 20%;
-    height: 20%;
-    margin-left: 2vw;
-    margin-top: 2vw;
+    #habilidades div div {
+        width: auto;
+        margin: auto auto;
+    }
+        #habilidades div div div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #c6d0ff
+        }
+
+#centrar-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacto-h2 {
+    margin: auto;
+    font-family: 'WC Mano Negra Bold',sans-serif;
 }
 
 
@@ -126,7 +130,6 @@ header {
     background-color: white;
     padding-left: 30px;
 }
-
 
 .formulario__input {
     background-color: white;
