@@ -208,7 +208,7 @@
                                             <img src="multimedia/asterisco.png" class="img-fluid" alt="No se encontró la imagen">
                                         </div>
                                         <div id="contacto-h2" class="col">
-                                            <h2>Vamos a trabajar juntos</h2>
+                                            <p>Vamos a trabajar juntos</p>
                                         </div>
                                         <div id="centrar-img" class="col-2">
                                             <img src="multimedia/asterisco.png" class="img-fluid" alt="No se encontró la imagen">
@@ -220,42 +220,58 @@
                             </div>
                         </div>
                     </div>
-                    <div class="formulario">
-                        <h2 class="formulario__h2">Formulario de contacto</h2>
-                        <form>
-                            <p class="formulario__p">
-                                <label for="nombre" class="formulario__label">Nombre</label>
-                                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre" class="formulario__input">
-                            </p>
+                    <h2 class="formulario__h2">Formulario de contacto</h2>
+                    <div class="row" style="padding-bottom:80px">
+                        <div class="col-4">
+                        </div>
+                        <div class="col-4">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="asunto" class="form-label">Asunto</label>
+                                <input type="text" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto" class="form-control">
 
-                            <p class="formulario__p">
-                                <label for="email" class="formulario__label">Email</label>
-                                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email" class="formulario__input">
-                            </p>
-
-                            <p class="formulario__p">
-                                <label for="asunto" class="formulario__label">Asunto</label>
-                                <input type="text" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto" class="formulario__input">
-                            </p>
-
-                            <p class="formulario__p">
-                                <label for="mensaje" class="formulario__label">Mensaje</label>
-                                <textarea name="introducir_mensaje" id="mensaje" class="formulario__textarea" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
-                            </p>
-
-                            <button class="formulario__boton" type="submit" name="enviar_formulario" id="enviar"><p class="formulario__p" style="color: #fff " onclick="alerta()">Enviar</p></button>
-                        </form>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea name="introducir_mensaje" id="mensaje" class="form-control" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary" type="submit" name="enviar_formulario" id="enviar" onclick="alerta()">Enviar</button>
+                            </div>
+                            <div class="col-4">
+                            </div>
+                        </div>
                     </div>
+                    <footer class="footer">
+                        <div class="row">
+                            <div class="col">
+                                <div id="footer_img" class="card border-dark mb-3">
+                                    <a href="https://github.com/DeboraYemina" target="_blank"><img src="multimedia/github.png" alt="No se encontró la imagen" class="card-img-top"></a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div id="footer_img" class="card border-dark mb-3">
+                                    <a href="https://www.linkedin.com/in/debora-moriset/" target="_blank"><img src="multimedia/linkedin.png" alt="No se encontró la imagen" class="card-img-top"></a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div id="footer_img" class="card border-dark mb-3">
+                                    <a href="mailto:deborayemina@gmail.com"><img src="multimedia/gmail.png" alt="No se encontró la imagen" class="card-img-top"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
                 </div>
-                <footer class="footer">
-                    <a href="https://github.com/DeboraYemina" target="_blank"><img src="multimedia/github.png" alt="No se encontró la imagen" class="footer__img"></a>
-                    <a href="https://www.linkedin.com/in/debora-moriset/" target="_blank"><img src="multimedia/linkedin.png" alt="No se encontró la imagen" class="footer__img"></a>
-                    <a href="mailto:deborayemina@gmail.com"><img src="multimedia/gmail.png" alt="No se encontró la imagen" class="footer__img"></a>
-                </footer>
-            </div>
-            <div class="col">
+                <div class="col">
+                </div>
             </div>
         </div>
-    </div>
 
 </body>

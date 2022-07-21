@@ -115,99 +115,29 @@ header {
 }
 
 #contacto-h2 {
+    font-size: 3.2rem;
     margin: auto;
-    font-family: 'WC Mano Negra Bold',sans-serif;
+    font-family: 'WC Mano Negra Bold', sans-serif;
 }
-
-
-.formulario {
-    width: 35vw;
-    height: auto;
-    margin: 3vw auto;
-    border-radius: 10px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background-color: white;
-    padding-left: 30px;
-}
-
-.formulario__input {
-    background-color: white;
-    width: 27vw;
-    height: 40px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #5271ff;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-}
-
-
-.formulario__textarea {
-    background-color: white;
-    width: 27vw;
-    height: 150px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #5271ff;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-    padding-top: 15px;
-}
-
-.formulario__label {
-    display: block;
-    float: center;
-}
-
-
-.formulario__boton {
-    height: 45px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    text-transform: uppercase;
-    background-color: #5271ff;
-    border-color: #5271ff;
-    border-style: solid;
-    border-radius: 10px;
-    width: 27vw;
-    cursor: pointer;
-}
-
-
-
 
 .formulario__h2 {
     font-size: 3vw;
-    text-align: left;
-    padding-bottom: 20px;
+    text-align: center;
+    padding-bottom: 50px;
     color: #5271ff;
+    padding-top: 100px;
 }
 
-.formulario__p {
-    font-size: 20px;
-    color: #0e0e0e;
-}
 
 .footer {
     background: #5271ff;
-    padding-left: 25vw;
+    padding-top:20px;
 }
 
-.footer__img {
-    display: flexbox;
-    width: 7vw;
-    margin-right: 10vw;
-    height: 7vw;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
-    background: white;
-    border-radius: 15px;
-    border-color: #5271ff
+#footer_img {
+    width: 6rem;
+    height: 6rem;
+    background-color: #c6d0ff;
+    margin: auto;
+    display: block;
 }
